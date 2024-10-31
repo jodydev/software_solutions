@@ -1,16 +1,9 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "webpack.config.js",
       "use": "@vercel/static-build"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/build/$1"
-    }
-  ],
-  "outputDirectory": "build"
+  "outputDirectory": "build" 
 }
