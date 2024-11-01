@@ -99,3 +99,7 @@
     @apply underline;
   }
 }
+
+body {
+  scroll-behavior: smooth !important;
+}
